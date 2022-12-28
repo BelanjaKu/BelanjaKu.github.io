@@ -316,6 +316,13 @@ header .icons #menu-bars{
     text-align: center;
 }
 
+.small{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black);
+    padding-top: .8rem;
+    font-weight: 800;
+}
 
 /* form pesanan awal */
 .order form{
