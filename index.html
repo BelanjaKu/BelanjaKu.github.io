@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelanjaKu</title>
+    <link rel="shortcut icon" href="images/logo-bk.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- awal navbar -->
+
+<header>
+
+    <a href="#" class="logo"><img class="bk" src="images/logo-bk.png"> BelanjaKu</a>
+
+    <nav class="navbar">
+        <a class="active" href="#beranda">Beranda</a>
+        <a href="#makanan">Menu</a>
+        <!-- <a href="#pilihan">pilihan</a> -->
+        <a href="#pesanan">pesan</a>
+        <a href="login.html">login</a>
+        <a href="#contact">About</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- akhir navbar-->
+
+<!-- pencarian  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="Cari Menu..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- sub halaman awal  -->
+<section class="beranda" id="beranda">
+    <div class="swiper-container beranda-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Menu Mankanan Terfavorit</span>
+                    <h3>Nasi Goreng Seafood</h3>
+                    <p>rasakan nikmatnya nasi goreng dengan aneka macam seafood segar</p>
+                    <a href="#" class="favorit">Pesan Sekarang</a>
+                </div>
+                <div class="images">
+                    <img src="images/nasgor-seafood.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Menu Mankanan Terfavorit</span>
+                    <h3>Nasi Goreng Jawa</h3>
+                    <p>rasakan nikmatnya nasi goreng khas pulau jawa</p>
+                    <a href="#" class="favorit">Pesan Sekarang</a>
+                </div>
+                <div class="images">
+                    <img src="images/nasgor-jawa.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Menu Mankanan Terfavorit</span>
+                    <h3>Nasi Goreng Pattaya</h3>
+                    <p>rasakan nikmatnya nasi goreng pattaya dengan toping telur melimpah</p>
+                    <a href="#" class="favorit">Pesan Sekarang</a>
+                </div>
+                <div class="images">
+                    <img src="images/nasgor-pattaya.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+<!-- sub halaman akhir -->
+
+<!-- Daftar menu awal -->
+<section class="makanan" id="makanan">
+
+    <h3 class="sub-heading"> Menu BelanjaKu </h3>
+    <h1 class="heading"> Menu Makanan dan Minuman </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/nasgor-jawa.png" alt="">
+            <h3>nasi goreng jawa</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>Rp.20.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/nasgor-kambing.png" alt="">
+            <h3>nasi goreng kambing</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>Rp.25.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/nasgor-mawut.png" alt="">
+            <h3>nasi goreng mawut</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rp.15.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/nasgor-sosis.png" alt="">
+            <h3>nasi goreng sosis </h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rp.20.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/nasgor-pattaya.png" alt="">
+            <h3>nasi goreng pattaya</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>Rp.30.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/nasgor-seafood.png" alt="">
+            <h3>nasi goreng Seafood</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>Rp.25.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/spesial.png" alt="">
+            <h3>nasi goreng spesial</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rp.25.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/coklat.png" alt="">
+            <h3>es coklat</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>Rp.10.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/green-tea.png" alt="">
+            <h3>es green tea</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rp.15.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/mangga.png" alt="">
+            <h3>jus mangga</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rp.15.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/teh.png" alt="">
+            <h3>es tea</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>Rp.7.000</span>
+            <a href="#" class="favorit">Tambah ke keranjang</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Daftar menu akhir -->
+
+<!-- pesanan awal -->
+<section class="order" id="pesanan">
+
+    <h3 class="sub-heading"> pesan sekarang </h3>
+    <h1 class="heading"> pengiriman cepat dan gratis ongkir</h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>nama pemesan</span>
+                <input type="text" placeholder="masukkan nama">
+            </div>
+            <div class="input">
+                <span>nomor telepon</span>
+                <input type="number" placeholder="masukkan nomor telepon">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>pesanan</span>
+                <input type="text" placeholder="masukkan pesanan">
+            </div>
+            <div class="input">
+                <span>tanggal pemesanan</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>jumlah pesanan</span>
+                <input type="number" placeholder="masukkan jumlah pesanan">
+            </div>
+            
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>alamat</span>
+                <textarea name="" placeholder="masukkan alamat penerima" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>komentar</span>
+                <textarea name="" placeholder="masukkan komentar " id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <a href="#"><input type="submit" value="pesan sekarang" class="tombol"></a>
+
+    </form>
+
+</section>
+
+<!-- pesanan akhir -->
+<!-- contact awal -->
+<section class="contact" id="contact">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">JL.Kedanyang-Gresik</a>
+            <a href="#">JL.Ahmad yani-Surabaya</a>
+            <a href="#">JL.bangau-Lamongan</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">082334153004</a>
+            <a href="#">081234567891</a>
+            <a href="https://mail.google.com/mail/u/0/?hl=en#inbox">syalahuddinaziz@gmail.com</a>
+            <a href="https://mail.google.com/mail/u/0/?hl=en#inbox">syalahuddinabdulazizsyah@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <h3>media sosial</h3>
+            <a href="https://www.facebook.com/">facebook</a>
+            <a href="https://www.instagram.com/">instagram</a>
+            <a href="https://www.tiktok.com/">tik tok</a>
+        </div>
+
+        <div class="box">
+            <h3>Jam operasional</h3>
+            <p>Senin-Jumat</p>
+            <p>Pukul : 08.00 WIB-22.00 WIB</p><br>
+            <p>Sabtu-Minggu</p>
+            <p>pukul : 08.00 WIB-23.00 WIB</p>
+        </div>
+
+    </div>
+
+    <div class="credit"><span>WEBSITE PENJUALAN TERPERCAYA</span> 
+        <div>Syalahuddin Abdul Aziz Syah</div>
+    <div>210603007</div></div>
+
+</section>
+<!-- contact akhir -->
+
+<!-- loading awal -->
+<div class="loading">
+    <img src="images/loader2.gif" alt="">
+</div>
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
